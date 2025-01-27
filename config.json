@@ -8,5 +8,13 @@
         "y": 100,
         "opacity": 0.4
     },
-    "isadmin" : false
+    "proxy": {
+        "use_proxy": true,
+        "proxy_url": "http://your_proxy:port",
+        "use_tor": false,
+        "tor_port": 9050,
+        "tor_control_port": 9051,
+        "dynamic_proxy": true 
+    },
+    "isadmin": false
 }

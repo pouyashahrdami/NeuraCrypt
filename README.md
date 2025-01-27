@@ -164,6 +164,41 @@ Contributions are welcome! Please feel free to submit pull requests.
   - Configuration system
   - Window management
 
+- 1.1.0 huge update
+
+*   **New Features:**
+    
+    *   Added proxy support for enhanced privacy
+        
+        *   Static proxy configuration
+            
+        *   Dynamic proxy fetching from external services
+            
+    *   Tor integration for anonymous communication
+        
+        *   Tor SOCKS5 proxy support
+            
+        *   Tor IP renewal functionality
+            
+    *   Improved error handling for proxy and Tor setup
+        
+    *   Added dynamic proxy fetching from free proxy services
+        
+*   **Enhancements:**
+    
+    *   Better UI responsiveness
+        
+    *   Improved configuration management
+        
+    *   Added status indicators for proxy and Tor operations
+        
+*   **Bug Fixes:**
+    
+    *   Fixed window resizing issues
+        
+    *   Resolved proxy connection errors
+        
+    *   Improved stability during AI responses
 ## 📞 Support
 
 For support, please:
