@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuraCrypt - Privacy-Focused Desktop Chat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #1e1e2f;
+      color: #ffffff;
+    }
+    header {
+      background: #0f0f1a;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #4caf50;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #2a2a40;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #4caf50;
+      margin-top: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      background: #3a3a5a;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    code {
+      background: #1e1e2f;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: "Courier New", Courier, monospace;
+    }
+    pre {
+      background: #1e1e2f;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    a {
+      color: #4caf50;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #4caf50;
+      color: #fff;
+      border-radius: 5px;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .button:hover {
+      background: #45a049;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f0f1a;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NeuraCrypt</h1>
+    <p>Privacy-Focused Desktop Chat with Gemini AI Integration</p>
+  </header>
+
+  <div class="container">
+    <img src="banner.jpeg" alt="NeuraCrypt Banner">
+    <h2>🌟 Features</h2>
+    <h3>Core Functionality</h3>
+    <ul>
+      <li>Direct integration with Google's Gemini AI</li>
+      <li>Real-time chat interface</li>
+      <li>Message history with scrollable view</li>
+      <li>Quick response system with keyboard shortcuts</li>
+    </ul>
+    <h3>Privacy Features</h3>
+    <ul>
+      <li>Runs with administrative privileges</li>
+      <li>Hidden from taskbar</li>
+      <li>Quick hide/show functionality</li>
+      <li>Adjustable opacity</li>
+      <li>Generic window title for discretion</li>
+    </ul>
+    <h3>User Interface</h3>
+    <ul>
+      <li>Compact, responsive design</li>
+      <li>Customizable window position and size</li>
+      <li>Persistent configuration settings</li>
+      <li>Status indicators for operations</li>
+      <li>Intuitive icon-based controls</li>
+    </ul>
+
+    <h2>🚀 Installation</h2>
+    <h3>Prerequisites</h3>
+    <ul>
+      <li>Python 3.8 or higher</li>
+      <li>Windows Operating System</li>
+      <li>Administrative privileges</li>
+    </ul>
+    <h3>Required Packages</h3>
+    <pre><code>pip install google-generativeai pywin32 keyboard</code></pre>
+    <h3>Configuration</h3>
+    <ol>
+      <li>Clone or download this repository</li>
+      <li>Run the application once to generate the default <code>config.json</code></li>
+      <li>Edit <code>config.json</code> with your API credentials:</li>
+    </ol>
+    <pre><code>{
+  "api_key": "YOUR_API_KEY_HERE",
+  "model": "gemini-1.5-flash",
+  "window": {
+    "width": 300,
+    "height": 400,
+    "x": 1500,
+    "y": 100,
+    "opacity": 0.4
+  },
+  "isadmin": true
+}</code></pre>
+
+    <h2>🎮 Usage</h2>
+    <h3>Starting the Application</h3>
+    <pre><code>python main.py</code></pre>
+    <h3>Keyboard Shortcuts</h3>
+    <ul>
+      <li><code>Ctrl + Shift + H</code>: Toggle window visibility</li>
+      <li><code>Ctrl + Enter</code>: Send message</li>
+      <li><code>Enter</code>: New line in input</li>
+    </ul>
+    <h3>Button Controls</h3>
+    <ul>
+      <li>📤 Send message</li>
+      <li>🗑️ Clear chat history</li>
+      <li>💥 Close application</li>
+    </ul>
+    <h3>Window Management</h3>
+    <ul>
+      <li>Drag to reposition</li>
+      <li>Resize from corners</li>
+      <li>Position and size are saved automatically</li>
+    </ul>
+
+    <h2>🔒 Privacy Considerations</h2>
+    <ul>
+      <li>Application runs with elevated privileges</li>
+      <li>Window is hidden from taskbar</li>
+      <li>Generic window title</li>
+      <li>Quick hide functionality</li>
+      <li>Adjustable opacity for discretion</li>
+    </ul>
+
+    <h2>⚠️ Security Notes</h2>
+    <ul>
+      <li>Store your API key securely</li>
+      <li>Be cautious with administrative privileges</li>
+      <li>Monitor application access</li>
+      <li>Regularly update dependencies</li>
+    </ul>
+
+    <h2>🔧 Troubleshooting</h2>
+    <h3>Common Issues</h3>
+    <ul>
+      <li><strong>Permission Denied</strong>: Ensure you're running as administrator and check file permissions.</li>
+      <li><strong>API Errors</strong>: Verify API key, check internet connection, and confirm API quota availability.</li>
+      <li><strong>Window Not Showing</strong>: Use <code>Ctrl+Shift+H</code> to toggle visibility or restart the application.</li>
+    </ul>
+
+    <h2>🤝 Contributing</h2>
+    <p>Contributions are welcome! Please feel free to submit pull requests.</p>
+    <ol>
+      <li>Fork the repository</li>
+      <li>Create your feature branch</li>
+      <li>Commit your changes</li>
+      <li>Push to the branch</li>
+      <li>Open a pull request</li>
+    </ol>
+
+    <h2>📝 Version History</h2>
+    <ul>
+      <li><strong>1.0.0</strong>: Initial release with basic chat functionality, privacy features, configuration system, and window management.</li>
+    </ul>
+
+    <h2>📞 Support</h2>
+    <p>For support, please:</p>
+    <ol>
+      <li>Check the troubleshooting section</li>
+      <li>Review existing issues</li>
+      <li>Create a new issue with detailed information</li>
+    </ol>
+
+    <p class="button"><a href="https://github.com/pouyashahrdami/NeuraCrypt" style="color: white;">View on GitHub</a></p>
+  </div>
+
+  <footer>
+    <p>© 2023 NeuraCrypt. All rights reserved.</p>
+    <p><strong>Note:</strong> This application is intended for legitimate use cases. Please ensure compliance with all applicable laws and regulations in your jurisdiction.</p>
+  </footer>
+</body>
+</html>
