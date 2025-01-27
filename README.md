@@ -80,7 +80,7 @@ The application will automatically request administrative privileges if needed.
 
 ### Keyboard Shortcuts
 
-- `Ctrl + Shift + H`: Toggle window visibility
+- `F10`: Toggle window visibility
 - `Ctrl + Enter`: Send message
 - `Enter`: New line in input
 
