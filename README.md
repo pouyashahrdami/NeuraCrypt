@@ -1,8 +1,9 @@
+![NeuraCrypt](banner.jpeg)
+
 # NeuraCrypt
 
 This application bypasses software restrictions that require closing other applications. It operates discreetly, providing an anonymous interface that stays on top of other applications. It is a privacy-focused desktop chat application that integrates with Google's Gemini AI. Running with administrative privileges, the application offers advanced privacy controls, such as window hiding and taskbar concealment.
 
-<img src="banner.jpeg" alt=" NeuraCrypt" width="100%" height="550">
 
 ## 🌟 Features
 
