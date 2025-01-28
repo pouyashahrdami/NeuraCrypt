@@ -32,6 +32,9 @@ This application bypasses software restrictions that require closing other appli
 
 ## 🚀 Installation
 
+- **YouTube Video for Windows Installation and Configuration API**:  
+  [Watch the video here](https://youtu.be/u-Q7Ck4Yotg)
+
 ### Prerequisites
 
 - Python 3.8 or higher
